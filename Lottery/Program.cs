@@ -1,7 +1,7 @@
 ﻿using System.Globalization;
 using Lottery;
 
-var inputPath = "C:\\Code\\input.txt";
+var inputPath = args[0];
 
 var lines = await File.ReadAllLinesAsync(inputPath);
 
